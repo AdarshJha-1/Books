@@ -1,289 +1,150 @@
-# 📚 Computer Science Books Collection
+# 📚 Books
 
-A curated collection of books related to:
+A collection of books I'm reading (or plan to read) while learning computer science, with a primary focus on **graphics programming**, **game development**, and **low-level systems**.
 
-- Computer Systems
-- Operating Systems
-- Computer Networks
-- Data Structures & Algorithms
-- Low-Level Programming
-- Mathematics
-- Computer Vision
-- Software Engineering
-
-This repository is mainly for educational reference and personal learning.
+This repository acts as my personal learning library and reading roadmap.
 
 ---
 
-# 📂 Repository Structure
+# 🎯 Primary Learning Path
 
-## 🖥️ Computer Systems
+The `GG/` directory contains the books I'm currently following to build a strong foundation for graphics programming and game engine development.
 
-### [Computer Systems: A Programmer's Perspective (2nd Edition)](./Computer%20Systems%20A%20Programmers%20Perspective%202nd%20Edition---Randal%20Bryant%20David%20Hallaron.pdf)
+### 📂 GG/
 
-One of the best books to understand how programs interact with hardware and operating systems. Covers topics like:
+#### 📐 01 — Mathematics
 
-- Memory hierarchy
-- Linking
-- Processes
-- Virtual memory
-- Assembly
-- Performance optimization
+Mathematics used in graphics, rendering, and game development.
 
----
-
-## 👁️ Computer Vision
-
-### [Computer Vision: Algorithms and Applications](./Computer%20Vision%20Algorithms%20and%20Applications.pdf)
-
-A solid introduction to modern computer vision concepts and algorithms.
-
-Topics include:
-
-- Image processing
-- Feature extraction
-- Recognition
-- Object detection
-- 3D reconstruction
+- Mathematics for 3D
+- Discrete Mathematics with Applications
+- Elementary Number Theory _(optional)_
 
 ---
 
-# ⚙️ CPU / Computer Organization
+#### ⚙️ 02 — C & Modern C++
 
-## [Inside Machine](./cpu-related/Inside%20Machine.pdf)
+Core programming languages used in game engines and graphics software.
 
-Explains CPU internals and processor architecture in a practical and understandable way.
-
-Topics:
-
-- Pipelines
-- Caches
-- Branch prediction
-- Instruction execution
-- Processor design
+- The C Programming Language
+- Expert C Programming
+- Effective Modern C++
+- Writing a C Compiler _(advanced)_
 
 ---
 
-## [Computer Organization and Design (4th Edition)](./cpu-related/MK.Computer.Organization.and.Design.4th.Edition.Oct.2011.pdf)
+#### 🖥️ 03 — Computer Systems
 
-Classic book for understanding computer architecture and hardware organization.
+Understanding how software interacts with hardware.
 
-Topics:
-
-- MIPS architecture
-- Instruction sets
-- Datapath design
-- Memory systems
-- Parallelism
-
----
-
-# 🧠 Data Structures & Algorithms
-
-## [Introduction to Algorithms (CLRS)](./dsa/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf)
-
-Widely known as the "algorithm bible".
-
-Topics:
-
-- Graph algorithms
-- Dynamic programming
-- Greedy algorithms
-- Trees
-- Sorting
-- Complexity analysis
+- Computer Systems: A Programmer's Perspective
+- Computer Organization and Design
+- Inside Machine
+- Modern Operating Systems
+- Operating Systems: Three Easy Pieces
+- TCP/IP Illustrated
 
 ---
 
-## [Algorithms, 4th Edition — Sedgewick & Wayne](./dsa/%5BPearson%5D%20-%20Algorithms%2C%204th%20ed.%20-%20%5BSedgewick%2C%20Wayne%5D.pdf)
+#### 🎨 04 — Graphics Programming
 
-Practical and implementation-oriented approach to algorithms.
+The primary graphics programming reference.
 
-Topics:
-
-- Searching
-- Sorting
-- Graphs
-- String algorithms
-- Data structures
+- Graphics Book
 
 ---
 
-# 🔧 Low-Level Programming & C/C++
+#### 🎮 05 — Game Development
 
-## [Expert C Programming: Deep Secrets](./low-level-pro-lang/Expert%20C%20Programming%20Deep%20Secrets.pdf)
+Topics related to game physics and gameplay systems.
 
-Advanced C programming concepts and deep understanding of the language internals.
-
----
-
-## [Low Level Programming](./low-level-pro-lang/lowlevelprogramming.pdf)
-
-Focuses on systems-level programming and low-level software development concepts.
+- Physics for Game Developers
 
 ---
 
-## [Effective Modern C++](./low-level-pro-lang/Scott_Meyers_Effective_Modern_C%2B%2B.pdf)
+#### 🛠️ 06 — Engine Development
 
-One of the best books for mastering modern C++ features and best practices.
+Reserved for future books.
 
-Topics:
+Planned additions include:
 
-- Move semantics
-- Smart pointers
-- Lambdas
-- constexpr
-- RAII
-
----
-
-## [The 8086 Book](./low-level-pro-lang/The8086Book_RussellRectorGeorgeAlexy.pdf)
-
-Covers Intel 8086 architecture and assembly programming fundamentals.
+- Game Engine Architecture
+- Real-Time Rendering
+- GPU Gems
+- Game Programming Patterns
 
 ---
 
-## [The C Programming Language (K&R)](./low-level-pro-lang/The.C.Programming.Language.2Nd.Ed%20Prentice.Hall.Brian.W.Kernighan.and.Dennis.M.Ritchie..pdf)
+#### 👁️ 07 — Computer Vision _(Optional)_
 
-The legendary book written by the creators of C.
+Useful for image processing, AR/VR, and graphics-related AI.
 
-A must-read for every systems programmer.
-
----
-
-# ➗ Mathematics
-
-## [Discrete Mathematics with Applications](./math/Discrete%20Mathematics%20with%20Applications.pdf)
-
-Essential mathematical foundations for computer science.
-
-Topics:
-
-- Logic
-- Graph theory
-- Combinatorics
-- Proof techniques
-- Relations
+- Computer Vision: Algorithms and Applications
 
 ---
 
-# 🌐 Computer Networks
+# 📚 Other Collections
 
-## [TCP/IP Illustrated — Richard Stevens](./nw/Richard_Stevens-TCP-IP_Illustrated-EN.pdf)
+These books aren't part of my current graphics roadmap but are useful references.
 
-One of the greatest books ever written on networking.
+## 🧠 Data Structures & Algorithms (`dsa/`)
 
-Topics:
+Algorithms and data structures.
 
-- TCP/IP protocols
-- Packet flow
-- Routing
-- Sockets
-- Network internals
+- Introduction to Algorithms (CLRS)
+- Algorithms (Sedgewick & Wayne)
 
 ---
 
-# 🖥️ Operating Systems
+## ⚡ Low-Level Programming (`low-level/`)
 
-## [Modern Operating Systems — Andrew S. Tanenbaum](./os/Andrew-S.-Tanenbaum-Modern-Operating-Systems.pdf)
+Books focused on assembly, CPU architecture, and systems programming.
 
-Comprehensive introduction to operating system concepts.
-
-Topics:
-
-- Scheduling
-- Memory management
-- File systems
-- Synchronization
-- Distributed systems
+- Low Level Programming
+- The 8086 Book
+- The Art of 64-Bit Assembly
 
 ---
 
-## [Operating Systems: Three Easy Pieces](./os/operating_systems_three_easy_pieces.pdf)
+## ➗ Mathematics (`math/`)
 
-A beginner-friendly yet deep operating systems book.
+Additional mathematics references.
 
-Topics:
-
-- Processes
-- Concurrency
-- Virtual memory
-- Persistence
+- Rosen's Discrete Mathematics
 
 ---
 
-# 💡 Software Engineering & Programming
+## 🤖 AI & Machine Learning (`ai-ml/`)
 
-## [Programming Collective Intelligence](./Programming%20Collective%20Intelligence.pdf)
+Books for machine learning and intelligent systems.
 
-Interesting book focused on practical machine learning and intelligent systems.
-
-Topics:
-
-- Recommendation systems
-- Clustering
-- Search engines
-- AI concepts
+- Programming Collective Intelligence
 
 ---
 
-## [The Pragmatic Programmer](./the-pragmatic-programmer.pdf)
+## 💡 Software Engineering (`software-engineering/`)
 
-Classic software engineering and programming mindset book.
+Books focused on writing better software.
 
-Focuses on:
-
-- Clean code
-- Engineering practices
-- Problem solving
-- Career growth
+- The Pragmatic Programmer
 
 ---
 
-# 🚀 Why This Repository?
+# 🚀 Current Reading Order
 
-This repository exists to:
-
-- Organize useful CS learning resources
-- Maintain a personal learning library
-- Help others discover quality books
-- Create a structured roadmap for systems/software engineering
+1. The C Programming Language
+2. Effective Modern C++
+3. Mathematics for 3D
+4. Computer Systems: A Programmer's Perspective
+5. Graphics Book
+6. Build SDL/OpenGL projects
+7. Physics for Game Developers
+8. Build a small game engine
 
 ---
 
 # 📌 Notes
 
+- This repository is for educational purposes and personal reference.
 - All books belong to their respective authors and publishers.
-- This repository is intended for educational purposes only.
-- Support authors by purchasing official copies whenever possible.
-
----
-
-# ⭐ Recommended Learning Order
-
-If you're interested in systems/software engineering:
-
-1. The Pragmatic Programmer
-2. K&R C
-3. Computer Systems: A Programmer's Perspective
-4. Operating Systems: Three Easy Pieces
-5. TCP/IP Illustrated
-6. Effective Modern C++
-7. CLRS
-
----
-
-# 🛠️ Tech Areas Covered
-
-- Systems Programming
-- Operating Systems
-- Networking
-- Computer Architecture
-- Algorithms
-- Mathematics
-- Software Engineering
-- Computer Vision
-- C/C++
-- Low-Level Development
-
----
+- If you find a book useful, consider purchasing an official copy to support the authors.
